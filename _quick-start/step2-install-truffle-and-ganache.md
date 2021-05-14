@@ -26,11 +26,12 @@ cd truffle-integration
 
 ## Install Truffle
 
-Navigate to the `truffle` directory within the tutorial, and install its dependencies.
+Navigate to the `truffle` directory within the tutorial, install its dependencies and install the token library we will use.
 
 ```shell
 cd <tutorial-root>/truffle
 npm install
+npm install @openzeppelin/contracts
 ```
 
 Let us verify that we have the correct version of truffle running.
